@@ -4,7 +4,7 @@
 This project implements a serverless data pipeline using **AWS Lambda** to automate the process of transferring and transforming data from **Amazon S3** into **Amazon Redshift**. The pipeline processes new insertions and updates, sends success or failure notifications via **Amazon SNS**, archives processed files, and connects to **Amazon QuickSight** for reporting, all within the same **VPC**.
 
 ## Architecture
-![Project Architecture](https://github.com/kishoo-coder/AWS-Data-pipeline/blob/main/AWS%20Pipeline.jpg) <!-- Replace with your image URL -->
+![Project Architecture](https://github.com/kishoo-coder/AWS-Data-pipeline/blob/main/AWS%20Pipeline.jpg1) <!-- Replace with your image URL -->
 
 The pipeline automates the following:
 1. **Data Ingestion**: Fetches `.csv` files from specified folders in an S3 bucket.
